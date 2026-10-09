@@ -2,6 +2,14 @@
 
 使用 100 Hz 六轴 IMU，判断手机是否完全离开桌面并由手握持。本仓库提供当前 Demo 使用的 **R10 因果 CNN** 的数据、训练与评估代码；此前部署的 **R8** 模型作为历史版本一并归档。
 
+## 手机端 Demo
+
+以下视频展示 HarmonyOS Demo 的实时检测界面（约 37 秒）：
+
+<video src="https://raw.githubusercontent.com/oscaryangzj/PhoneinHand/main/assets/demo/phoneinhand_demo.mp4" controls playsinline width="320">
+  浏览器不支持内嵌播放时，可[打开演示视频](assets/demo/phoneinhand_demo.mp4)。
+</video>
+
 ## 任务与方法
 
 | 标签 | 编码 | 定义 |
