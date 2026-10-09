@@ -22,6 +22,8 @@ oh_modules/
 node_modules/
 build/
 *.hap
+# Explicitly curated signed demo builds distributed with this repository.
+!artifacts/hap/*.hap
 *.app
 *.hsp
 *.log

@@ -124,6 +124,8 @@ Demo 已包含 R10 的 MindSpore Lite `.ms` 模型，归一化和流式状态接
 
 **手机端复现使用随附的 R10 `.ms` 文件。** Python 重训生成 PyTorch checkpoint；将新 checkpoint 转换为 `.ms` 需另行配置转换工具，本仓库不包含转换脚本或签名材料。新采集数据也需建立新的录制划分与训练配置，现有 R10 清单保持固定。端侧操作见 [Demo README](PhoneInHandDemo/README.md)，接口见 [DATA_CONTRACT.md](docs/DATA_CONTRACT.md)，模型文件及参数见 [model_registry.md](docs/model_registry.md)。
 
+可直接下载已签名的 HarmonyOS HAP 安装包：当前 R10 的 [PhoneInHandDemo-R10-20261008.hap](artifacts/hap/PhoneInHandDemo-R10-20261008.hap)，以及历史 R8 的 [PhoneInHandDemo-R8-20261008.hap](artifacts/hap/PhoneInHandDemo-R8-20261008.hap)。包内模型版本与 [model registry](docs/model_registry.md) 对应；仓库不包含本机签名密钥。
+
 ## 代码来源
 
 本项目的代码基础来自 mentor 提供的两个仓库：[PhoneInHand](https://github.com/zhangrui1123/PhoneInHand)（Python 数据处理、训练与评估）和 [PhoneInHandDemo](https://github.com/zhangrui1123/PhoneInHandDemo)（HarmonyOS 采集与端侧推理）。本仓库在此基础上筛选并整合可复现的核心代码、数据清单和 R8/R10 模型产物。
