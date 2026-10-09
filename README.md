@@ -8,7 +8,7 @@
 
 ![HarmonyOS 手机端实时检测演示预览](assets/demo/phoneinhand_demo_preview.gif)
 
-上方为 8 秒循环预览；[打开完整 37 秒视频（MP4）](assets/demo/phoneinhand_demo.mp4)。
+上方为 8 秒循环预览；[下载完整 37 秒视频（MP4）](assets/demo/phoneinhand_demo.mp4)。
 
 ## 任务与方法
 
