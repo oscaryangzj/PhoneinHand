@@ -1,0 +1,597 @@
+{
+  "model_id": "step-r10-r9-both-static2-smart2-other1-rot3-tmse-50epochs-20261008",
+  "recordings": 47,
+  "frames": 59874,
+  "accuracy": 0.9748972842970237,
+  "macro_f1": 0.9748650248806002,
+  "false_free_rate": 0.01682171084842974,
+  "confusion_matrix_tn_fp_fn_tp": [
+    28113,
+    481,
+    1022,
+    30258
+  ],
+  "scene_confusions_tn_fp_fn_tp": {
+    "手持微动": [
+      0,
+      0,
+      52,
+      10347
+    ],
+    "手持静止（双手）": [
+      0,
+      0,
+      886,
+      3737
+    ],
+    "手持静止（右手）": [
+      0,
+      0,
+      5,
+      3249
+    ],
+    "车载手持": [
+      0,
+      0,
+      0,
+      2309
+    ],
+    "桌面微动": [
+      10996,
+      348,
+      0,
+      0
+    ],
+    "桌面静置": [
+      10194,
+      130,
+      0,
+      0
+    ],
+    "车载静置": [
+      6923,
+      3,
+      0,
+      0
+    ],
+    "手持步行": [
+      0,
+      0,
+      0,
+      2671
+    ],
+    "手持静止": [
+      0,
+      0,
+      79,
+      7945
+    ]
+  },
+  "per_recording": [
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20260930_162531.csv",
+      "scene": "手持微动",
+      "frames": 1156,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        35,
+        1121
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20260930_162626.csv",
+      "scene": "手持微动",
+      "frames": 1156,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        3,
+        1153
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20260930_174114.csv",
+      "scene": "手持微动",
+      "frames": 1157,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        1,
+        1156
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20261006_091853.csv",
+      "scene": "手持微动",
+      "frames": 1156,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        3,
+        1153
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20261008_092516.csv",
+      "scene": "手持微动",
+      "frames": 1156,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        1156
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20261008_092559.csv",
+      "scene": "手持微动",
+      "frames": 1153,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        1153
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20261008_111826.csv",
+      "scene": "手持微动",
+      "frames": 1155,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        7,
+        1148
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20261008_112451.csv",
+      "scene": "手持微动",
+      "frames": 1155,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        1155
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（双手）_20261006_091633.csv",
+      "scene": "手持静止（双手）",
+      "frames": 1156,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        38,
+        1118
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（双手）_20261006_101047.csv",
+      "scene": "手持静止（双手）",
+      "frames": 1156,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        241,
+        915
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（双手）_20261008_141350.csv",
+      "scene": "手持静止（双手）",
+      "frames": 1155,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        533,
+        622
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（双手）_20261008_141449.csv",
+      "scene": "手持静止（双手）",
+      "frames": 1156,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        74,
+        1082
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113335.csv",
+      "scene": "手持静止（右手）",
+      "frames": 651,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        651
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113353.csv",
+      "scene": "手持静止（右手）",
+      "frames": 650,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        650
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113414.csv",
+      "scene": "手持静止（右手）",
+      "frames": 652,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        652
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113432.csv",
+      "scene": "手持静止（右手）",
+      "frames": 650,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        5,
+        645
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113454.csv",
+      "scene": "手持静止（右手）",
+      "frames": 651,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        651
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_车载手持_20261007_191235.csv",
+      "scene": "车载手持",
+      "frames": 1154,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        1154
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_车载手持_20261008_084242.csv",
+      "scene": "车载手持",
+      "frames": 1155,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        1155
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_底面接触桌面握持_20260930_113309.csv",
+      "scene": "桌面微动",
+      "frames": 651,
+      "confusion_matrix_tn_fp_fn_tp": [
+        627,
+        24,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20260930_162509.csv",
+      "scene": "桌面微动",
+      "frames": 1156,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1156,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20260930_162602.csv",
+      "scene": "桌面微动",
+      "frames": 1155,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1086,
+        69,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20260930_174050.csv",
+      "scene": "桌面微动",
+      "frames": 1155,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1138,
+        17,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20261006_091805.csv",
+      "scene": "桌面微动",
+      "frames": 1154,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1135,
+        19,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20261006_101205.csv",
+      "scene": "桌面微动",
+      "frames": 1158,
+      "confusion_matrix_tn_fp_fn_tp": [
+        997,
+        161,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20261008_111708.csv",
+      "scene": "桌面微动",
+      "frames": 1156,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1127,
+        29,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20261008_112405.csv",
+      "scene": "桌面微动",
+      "frames": 1154,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1154,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面静置_20261008_111559.csv",
+      "scene": "桌面静置",
+      "frames": 1157,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1157,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面静置_20261008_112250.csv",
+      "scene": "桌面静置",
+      "frames": 1152,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1022,
+        130,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261007_191148.csv",
+      "scene": "车载静置",
+      "frames": 1158,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1158,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261007_191332.csv",
+      "scene": "车载静置",
+      "frames": 1153,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1153,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261007_191501.csv",
+      "scene": "车载静置",
+      "frames": 1154,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1151,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261007_191554.csv",
+      "scene": "车载静置",
+      "frames": 1152,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1152,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261008_080905.csv",
+      "scene": "车载静置",
+      "frames": 1154,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1154,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261008_084145.csv",
+      "scene": "车载静置",
+      "frames": 1155,
+      "confusion_matrix_tn_fp_fn_tp": [
+        1155,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113108.csv",
+      "scene": "桌面微动",
+      "frames": 650,
+      "confusion_matrix_tn_fp_fn_tp": [
+        650,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113201.csv",
+      "scene": "桌面微动",
+      "frames": 652,
+      "confusion_matrix_tn_fp_fn_tp": [
+        623,
+        29,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113230.csv",
+      "scene": "桌面微动",
+      "frames": 652,
+      "confusion_matrix_tn_fp_fn_tp": [
+        652,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113251.csv",
+      "scene": "桌面微动",
+      "frames": 651,
+      "confusion_matrix_tn_fp_fn_tp": [
+        651,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持微动_20261007_162352.csv",
+      "scene": "手持微动",
+      "frames": 1155,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        3,
+        1152
+      ]
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持步行_20260807_133923.csv",
+      "scene": "手持步行",
+      "frames": 2671,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        2671
+      ]
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持静止_20260807_133805.csv",
+      "scene": "手持静止",
+      "frames": 2672,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        2672
+      ]
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持静止_20260807_153148.csv",
+      "scene": "手持静止",
+      "frames": 2675,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        79,
+        2596
+      ]
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持静止_20260807_153224.csv",
+      "scene": "手持静止",
+      "frames": 2677,
+      "confusion_matrix_tn_fp_fn_tp": [
+        0,
+        0,
+        0,
+        2677
+      ]
+    },
+    {
+      "file": "imu_inhand_ZR_non_handheld_桌面静置_20260807_133712.csv",
+      "scene": "桌面静置",
+      "frames": 2669,
+      "confusion_matrix_tn_fp_fn_tp": [
+        2669,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_ZR_non_handheld_桌面静置_20260807_162519.csv",
+      "scene": "桌面静置",
+      "frames": 2671,
+      "confusion_matrix_tn_fp_fn_tp": [
+        2671,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "imu_inhand_ZR_non_handheld_桌面静置_20260810_104117.csv",
+      "scene": "桌面静置",
+      "frames": 2675,
+      "confusion_matrix_tn_fp_fn_tp": [
+        2675,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "fsm": {
+    "unknown_frames": 4293,
+    "false_free_frames": 0,
+    "false_free_rate": 0.0,
+    "false_contact_frames": 868,
+    "handheld_miss_rate": 0.027749360613810743,
+    "unknown_policy": "unknown 单独统计，不计作正确或错误；错误率分母包含所有真实状态帧"
+  }
+}

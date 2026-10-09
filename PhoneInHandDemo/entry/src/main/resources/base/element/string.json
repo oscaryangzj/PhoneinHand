@@ -1,0 +1,45 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "手持/非手持 IMU 采集模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "手持检测采集入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "手持检测采集"
+    },
+    {
+      "name": "accelerometer_reason",
+      "value": "采集加速度计数据用于手持/非手持状态区分"
+    },
+    {
+      "name": "gyroscope_reason",
+      "value": "采集陀螺仪数据用于手持/非手持状态区分"
+    },
+    {
+      "name": "input_name_hint",
+      "value": "请输入您的姓名"
+    },
+    {
+      "name": "start_collection",
+      "value": "开始采集"
+    },
+    {
+      "name": "realtime_demo",
+      "value": "实时 Demo"
+    },
+
+    {
+      "name": "collection_done",
+      "value": "采集完成"
+    },
+    {
+      "name": "back_home",
+      "value": "返回首页"
+    }
+  ]
+}

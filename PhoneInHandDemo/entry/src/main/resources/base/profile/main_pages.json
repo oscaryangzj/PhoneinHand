@@ -1,0 +1,8 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/CollectionPage",
+    "pages/ResultPage",
+    "pages/DetectPage"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "epochs": 50,
+  "batch_size": 64,
+  "window_size": 128,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "class_weights": true,
+  "grad_clip": 1.0,
+  "rotation_seed": 42,
+  "rotation_policy": "non-SmartRotation original stride1 window +3 fixed seed42 Haar-uniform SO(3) copies, same raw-space matrix for all frames and acc/gyro; SmartRotation stride2, no copies",
+  "training_recordings": 169,
+  "validation_recordings": 47,
+  "training_windows": 633846,
+  "effective_class_frames": [
+    15035072,
+    28066456
+  ],
+  "trim_seconds": 3,
+  "warmup_frames_after_trim": 60,
+  "model_id": "step-r10-r9-both-static2-smart2-other1-rot3-tmse-50epochs-20261008",
+  "model": {
+    "input_dim": 6,
+    "num_classes": 2,
+    "cnn_channels": 32,
+    "kernel_size": 5,
+    "dilations": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "dropout": 0.1,
+    "step_chunk_size": 1,
+    "gravity_alpha": 0.9700000286102295,
+    "acc_channels": 3
+  },
+  "temporal_loss": {
+    "name": "same_label_tmse",
+    "weight": 0.15,
+    "tau": 4.0,
+    "previous_frame_stop_gradient": true,
+    "mask": "both frames valid and equal labels within one window",
+    "normalization": "valid adjacent pairs times class count",
+    "source": "https://github.com/yabufarha/ms-tcn/blob/master/model.py"
+  },
+  "dataset_manifest": "data/splits/R10.json",
+  "normalization": "models/R10/norm_stats.json",
+  "optimizer": "AdamW",
+  "scheduler": "CosineAnnealingLR",
+  "selection": "highest validation macro-F1; ties choose later epoch",
+  "reference_environment": {
+    "torch_version": "2.14.0",
+    "numpy_version": "2.4.6"
+  },
+  "reference_device": "mps",
+  "initialization": "fresh random initialization seed42"
+}

@@ -1,0 +1,5 @@
+{
+  "modelVersion": "6.0.1",
+  "description": "IMU collector for handheld vs non-handheld (mount) labeling",
+  "dependencies": {}
+}

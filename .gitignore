@@ -1,0 +1,38 @@
+# 本机配置
+.DS_Store
+.idea/
+.vscode/
+local.properties
+.env
+.env.*
+.venv/
+venv/
+
+# Python 运行产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+PhoneInHand/runs/
+
+# HarmonyOS 依赖与构建产物
+.hvigor/
+oh_modules/
+node_modules/
+build/
+*.hap
+*.app
+*.hsp
+*.log
+
+# 本机签名材料
+.signing/
+signing/
+*.p12
+*.p7b
+*.cer
+*.crt
+*.pem
+*.key
+*.keystore

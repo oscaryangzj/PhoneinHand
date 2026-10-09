@@ -1,0 +1,1146 @@
+{
+  "model_id": "step-r10-r9-both-static2-smart2-other1-rot3-tmse-50epochs-20261008",
+  "trim_seconds": 3,
+  "warmup_frames": 60,
+  "training_recordings": 169,
+  "validation_recordings": 47,
+  "training_windows": 633846,
+  "parts": [
+    {
+      "name": "local79",
+      "stride": 1,
+      "rotation_copies": 3,
+      "base_windows": 89047,
+      "training_windows": 356188,
+      "recordings": [
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_110445.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_110534.csv",
+          "retained_rows": 710,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_110638.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_111343.csv",
+          "retained_rows": 710,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_111504.csv",
+          "retained_rows": 709,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_111557.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_111652.csv",
+          "retained_rows": 712,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_111737.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_111817.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_111856.csv",
+          "retained_rows": 710,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_111941.csv",
+          "retained_rows": 712,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_112032.csv",
+          "retained_rows": 710,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_112656.csv",
+          "retained_rows": 712,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_112750.csv",
+          "retained_rows": 709,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_112828.csv",
+          "retained_rows": 710,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_底面接触桌面握持_20260930_112636.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_底面接触桌面握持_20260930_112727.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_底面接触桌面握持_20260930_112810.csv",
+          "retained_rows": 709,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_110415.csv",
+          "retained_rows": 709,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_110511.csv",
+          "retained_rows": 708,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_110615.csv",
+          "retained_rows": 710,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_111322.csv",
+          "retained_rows": 709,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_111415.csv",
+          "retained_rows": 710,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_111539.csv",
+          "retained_rows": 709,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_111626.csv",
+          "retained_rows": 712,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_111718.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_111801.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_111839.csv",
+          "retained_rows": 708,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_111924.csv",
+          "retained_rows": 710,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_112015.csv",
+          "retained_rows": 711,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_handheld_手持步行_20260807_133633.csv",
+          "retained_rows": 2731,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_handheld_手持静止_20260807_133548.csv",
+          "retained_rows": 2733,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_handheld_手持静止_20260807_152920.csv",
+          "retained_rows": 2736,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_handheld_手持静止_20260807_152958.csv",
+          "retained_rows": 2738,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_handheld_手持静止_20260807_153038.csv",
+          "retained_rows": 2735,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260807_133845.csv",
+          "retained_rows": 2730,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260807_162300.csv",
+          "retained_rows": 2732,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260807_162602.csv",
+          "retained_rows": 2731,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260807_163646.csv",
+          "retained_rows": 2734,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260807_163908.csv",
+          "retained_rows": 2735,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260810_104005.csv",
+          "retained_rows": 2737,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260810_104041.csv",
+          "retained_rows": 2726,
+          "data_group": "old_foundation"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_161508.csv",
+          "retained_rows": 1214,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_161535.csv",
+          "retained_rows": 1216,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_161605.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_161630.csv",
+          "retained_rows": 1214,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_161659.csv",
+          "retained_rows": 1217,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_161723.csv",
+          "retained_rows": 1214,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_161754.csv",
+          "retained_rows": 1217,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_161818.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_161845.csv",
+          "retained_rows": 1217,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_161913.csv",
+          "retained_rows": 1216,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_161938.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_162001.csv",
+          "retained_rows": 1216,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_162108.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_162154.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_162219.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_162249.csv",
+          "retained_rows": 1213,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_162316.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_162338.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_162400.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_162421.csv",
+          "retained_rows": 1214,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_173459.csv",
+          "retained_rows": 1217,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_173528.csv",
+          "retained_rows": 1216,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_173630.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_173653.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_173823.csv",
+          "retained_rows": 1218,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_173849.csv",
+          "retained_rows": 1215,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_173923.csv",
+          "retained_rows": 1216,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_173954.csv",
+          "retained_rows": 1216,
+          "data_group": "old_micro_20260930"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（双手）_20261006_091609.csv",
+          "retained_rows": 1214,
+          "data_group": "today_20261006"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20261006_091738.csv",
+          "retained_rows": 1214,
+          "data_group": "today_20261006"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261006_091829.csv",
+          "retained_rows": 1214,
+          "data_group": "today_20261006"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（双手）_20261006_101026.csv",
+          "retained_rows": 1214,
+          "data_group": "today_20261006"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20261006_101141.csv",
+          "retained_rows": 1216,
+          "data_group": "today_20261006"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（左手）_20261006_144243.csv",
+          "retained_rows": 1218,
+          "data_group": "device_additions_20261006"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261006_144525.csv",
+          "retained_rows": 1217,
+          "data_group": "device_additions_20261006"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261006_144607.csv",
+          "retained_rows": 1218,
+          "data_group": "device_additions_20261006"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261006_144657.csv",
+          "retained_rows": 1218,
+          "data_group": "device_additions_20261006"
+        }
+      ]
+    },
+    {
+      "name": "smartrotation72",
+      "stride": 2,
+      "rotation_copies": 0,
+      "base_windows": 199334,
+      "training_windows": 199334,
+      "recordings": [
+        {
+          "path": "data/smartrotate/imu_rotation_Miguel_level_both_ccw_20260907_154447.csv",
+          "retained_rows": 5975,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_Miguel_level_both_cw_20260907_154333.csv",
+          "retained_rows": 5975,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_Miguel_level_left_ccw_20260907_154217.csv",
+          "retained_rows": 5974,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_Miguel_level_left_cw_20260907_154054.csv",
+          "retained_rows": 5976,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_YZJ_level_both_ccw_20260907_152635.csv",
+          "retained_rows": 5963,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_YZJ_level_both_cw_20260907_152523.csv",
+          "retained_rows": 5968,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_YZJ_level_left_ccw_20260907_152343.csv",
+          "retained_rows": 5964,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_YZJ_level_left_cw_20260907_152228.csv",
+          "retained_rows": 5961,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_both_ccw_20260810_164413.csv",
+          "retained_rows": 5965,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_both_cw_20260810_164301.csv",
+          "retained_rows": 5967,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260720_231535.csv",
+          "retained_rows": 16078,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260803_161636.csv",
+          "retained_rows": 5963,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260804_150745.csv",
+          "retained_rows": 5965,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260805_141202.csv",
+          "retained_rows": 5964,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260806_151025.csv",
+          "retained_rows": 5972,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260809_101946.csv",
+          "retained_rows": 5966,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260809_105045.csv",
+          "retained_rows": 5963,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260810_114609.csv",
+          "retained_rows": 5965,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260810_232216.csv",
+          "retained_rows": 5964,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_ccw_20260811_114705.csv",
+          "retained_rows": 5963,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_cw_20260805_141051.csv",
+          "retained_rows": 5972,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_cw_20260809_102210.csv",
+          "retained_rows": 5969,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_cw_20260809_104930.csv",
+          "retained_rows": 5965,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_cw_20260810_114458.csv",
+          "retained_rows": 5966,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_cw_20260810_164748.csv",
+          "retained_rows": 5971,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_cw_20260811_114530.csv",
+          "retained_rows": 5963,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_cw_20260907_153842.csv",
+          "retained_rows": 5973,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_in_20261002_155834.csv",
+          "retained_rows": 3739,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_in_20261002_155923.csv",
+          "retained_rows": 3742,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_in_20261005_114027.csv",
+          "retained_rows": 3741,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_in_20261005_163220.csv",
+          "retained_rows": 3743,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_in_20261005_163303.csv",
+          "retained_rows": 3744,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_left_20261005_110504.csv",
+          "retained_rows": 3741,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_out_20261005_110658.csv",
+          "retained_rows": 3742,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_out_20261005_153458.csv",
+          "retained_rows": 3746,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_out_20261005_153544.csv",
+          "retained_rows": 3748,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_left_hold_right_20261005_110307.csv",
+          "retained_rows": 3742,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_ccw_20260720_230940.csv",
+          "retained_rows": 16076,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_ccw_20260803_161903.csv",
+          "retained_rows": 5961,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_ccw_20260809_105201.csv",
+          "retained_rows": 5966,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_ccw_20260810_114348.csv",
+          "retained_rows": 5966,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_ccw_20260810_164637.csv",
+          "retained_rows": 5966,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_ccw_20260811_114400.csv",
+          "retained_rows": 5966,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260720_224130.csv",
+          "retained_rows": 16073,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260720_231238.csv",
+          "retained_rows": 16075,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260804_150633.csv",
+          "retained_rows": 5970,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260806_150914.csv",
+          "retained_rows": 5971,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260809_101833.csv",
+          "retained_rows": 5963,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260809_102057.csv",
+          "retained_rows": 5965,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260809_104820.csv",
+          "retained_rows": 5966,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260810_114237.csv",
+          "retained_rows": 5966,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260810_164527.csv",
+          "retained_rows": 5967,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260810_232050.csv",
+          "retained_rows": 5961,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_cw_20260811_114222.csv",
+          "retained_rows": 5963,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_in_20261002_155643.csv",
+          "retained_rows": 3742,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_in_20261002_155734.csv",
+          "retained_rows": 3738,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_in_20261005_152043.csv",
+          "retained_rows": 3749,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_in_20261005_163051.csv",
+          "retained_rows": 3739,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_in_20261005_163135.csv",
+          "retained_rows": 3747,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_110405.csv",
+          "retained_rows": 3739,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_111817.csv",
+          "retained_rows": 3747,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_113342.csv",
+          "retained_rows": 3747,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_114119.csv",
+          "retained_rows": 3742,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_152240.csv",
+          "retained_rows": 3744,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_152325.csv",
+          "retained_rows": 3745,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_152419.csv",
+          "retained_rows": 3743,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_152505.csv",
+          "retained_rows": 3741,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_155830.csv",
+          "retained_rows": 3751,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_left_20261005_155915.csv",
+          "retained_rows": 3744,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_out_20261005_110602.csv",
+          "retained_rows": 3742,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_out_20261005_153413.csv",
+          "retained_rows": 3743,
+          "data_group": "smartrotation"
+        },
+        {
+          "path": "data/smartrotate/imu_rotation_ZR_level_right_hold_right_20261005_110208.csv",
+          "retained_rows": 3739,
+          "data_group": "smartrotation"
+        }
+      ]
+    },
+    {
+      "name": "vehicle_train5",
+      "stride": 1,
+      "rotation_copies": 3,
+      "base_windows": 5434,
+      "training_windows": 21736,
+      "recordings": [
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261007_191125.csv",
+          "retained_rows": 1213,
+          "data_group": "vehicle_20261007"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_车载手持_20261007_191212.csv",
+          "retained_rows": 1213,
+          "data_group": "vehicle_20261007"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261007_191306.csv",
+          "retained_rows": 1214,
+          "data_group": "vehicle_20261007"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261007_191438.csv",
+          "retained_rows": 1214,
+          "data_group": "vehicle_20261007"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261007_191526.csv",
+          "retained_rows": 1215,
+          "data_group": "vehicle_20261007"
+        }
+      ]
+    },
+    {
+      "name": "today_train5",
+      "stride": 1,
+      "rotation_copies": 3,
+      "base_windows": 5445,
+      "training_windows": 21780,
+      "recordings": [
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261008_080840.csv",
+          "retained_rows": 1215,
+          "data_group": "today_20261008"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261008_084117.csv",
+          "retained_rows": 1216,
+          "data_group": "today_20261008"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_车载手持_20261008_084211.csv",
+          "retained_rows": 1216,
+          "data_group": "today_20261008"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261008_092451.csv",
+          "retained_rows": 1217,
+          "data_group": "today_20261008"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261008_092538.csv",
+          "retained_rows": 1216,
+          "data_group": "today_20261008"
+        }
+      ]
+    },
+    {
+      "name": "new_train6",
+      "stride": 1,
+      "rotation_copies": 3,
+      "base_windows": 6527,
+      "training_windows": 26108,
+      "recordings": [
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面静置_20261008_111536.csv",
+          "retained_rows": 1215,
+          "data_group": "new_20261008_111536_112451"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20261008_111639.csv",
+          "retained_rows": 1215,
+          "data_group": "new_20261008_111536_112451"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20261008_111803.csv",
+          "retained_rows": 1214,
+          "data_group": "new_20261008_111536_112451"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面静置_20261008_112212.csv",
+          "retained_rows": 1214,
+          "data_group": "new_20261008_111536_112451"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20261008_112331.csv",
+          "retained_rows": 1216,
+          "data_group": "new_20261008_111536_112451"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261008_112428.csv",
+          "retained_rows": 1215,
+          "data_group": "new_20261008_111536_112451"
+        }
+      ]
+    },
+    {
+      "name": "both_static_train2",
+      "stride": 1,
+      "rotation_copies": 3,
+      "base_windows": 2175,
+      "training_windows": 8700,
+      "recordings": [
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（双手）_20261008_141326.csv",
+          "retained_rows": 1213,
+          "data_group": "both_static_20261008_141326_141449"
+        },
+        {
+          "path": "data/other/imu_inhand_YZJ_handheld_手持静止（双手）_20261008_141426.csv",
+          "retained_rows": 1216,
+          "data_group": "both_static_20261008_141326_141449"
+        }
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113335.csv",
+      "retained_rows": 711,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113353.csv",
+      "retained_rows": 710,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113414.csv",
+      "retained_rows": 712,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113432.csv",
+      "retained_rows": 710,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113454.csv",
+      "retained_rows": 711,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_底面接触桌面握持_20260930_113309.csv",
+      "retained_rows": 711,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113108.csv",
+      "retained_rows": 710,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113201.csv",
+      "retained_rows": 712,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113230.csv",
+      "retained_rows": 712,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113251.csv",
+      "retained_rows": 711,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_ZR_handheld_手持步行_20260807_133923.csv",
+      "retained_rows": 2731,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_ZR_handheld_手持静止_20260807_133805.csv",
+      "retained_rows": 2732,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_ZR_handheld_手持静止_20260807_153148.csv",
+      "retained_rows": 2735,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_ZR_handheld_手持静止_20260807_153224.csv",
+      "retained_rows": 2737,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260807_133712.csv",
+      "retained_rows": 2729,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260807_162519.csv",
+      "retained_rows": 2731,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_ZR_non_handheld_桌面静置_20260810_104117.csv",
+      "retained_rows": 2735,
+      "data_group": "old_foundation"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_162509.csv",
+      "retained_rows": 1216,
+      "data_group": "old_micro_20260930"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_162531.csv",
+      "retained_rows": 1216,
+      "data_group": "old_micro_20260930"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_162602.csv",
+      "retained_rows": 1215,
+      "data_group": "old_micro_20260930"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_162626.csv",
+      "retained_rows": 1216,
+      "data_group": "old_micro_20260930"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20260930_174050.csv",
+      "retained_rows": 1215,
+      "data_group": "old_micro_20260930"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20260930_174114.csv",
+      "retained_rows": 1217,
+      "data_group": "old_micro_20260930"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持静止（双手）_20261006_091633.csv",
+      "retained_rows": 1216,
+      "data_group": "today_20261006"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20261006_091805.csv",
+      "retained_rows": 1214,
+      "data_group": "today_20261006"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261006_091853.csv",
+      "retained_rows": 1216,
+      "data_group": "today_20261006"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持静止（双手）_20261006_101047.csv",
+      "retained_rows": 1216,
+      "data_group": "today_20261006"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20261006_101205.csv",
+      "retained_rows": 1218,
+      "data_group": "today_20261006"
+    },
+    {
+      "path": "data/other/imu_inhand_ZR_handheld_手持微动_20261007_162352.csv",
+      "retained_rows": 1215,
+      "data_group": "zr_shake_20261007"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261007_191148.csv",
+      "retained_rows": 1218,
+      "data_group": "vehicle_20261007"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_车载手持_20261007_191235.csv",
+      "retained_rows": 1214,
+      "data_group": "vehicle_20261007"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261007_191332.csv",
+      "retained_rows": 1213,
+      "data_group": "vehicle_20261007"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261007_191501.csv",
+      "retained_rows": 1214,
+      "data_group": "vehicle_20261007"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261007_191554.csv",
+      "retained_rows": 1212,
+      "data_group": "vehicle_20261007"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261008_080905.csv",
+      "retained_rows": 1214,
+      "data_group": "today_20261008"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_车载静置_20261008_084145.csv",
+      "retained_rows": 1215,
+      "data_group": "today_20261008"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_车载手持_20261008_084242.csv",
+      "retained_rows": 1215,
+      "data_group": "today_20261008"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261008_092516.csv",
+      "retained_rows": 1216,
+      "data_group": "today_20261008"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261008_092559.csv",
+      "retained_rows": 1213,
+      "data_group": "today_20261008"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_桌面静置_20261008_111559.csv",
+      "retained_rows": 1217,
+      "data_group": "new_20261008_111536_112451"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20261008_111708.csv",
+      "retained_rows": 1216,
+      "data_group": "new_20261008_111536_112451"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261008_111826.csv",
+      "retained_rows": 1215,
+      "data_group": "new_20261008_111536_112451"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_桌面静置_20261008_112250.csv",
+      "retained_rows": 1212,
+      "data_group": "new_20261008_111536_112451"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_non_handheld_桌面微动_20261008_112405.csv",
+      "retained_rows": 1214,
+      "data_group": "new_20261008_111536_112451"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持微动_20261008_112451.csv",
+      "retained_rows": 1215,
+      "data_group": "new_20261008_111536_112451"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持静止（双手）_20261008_141350.csv",
+      "retained_rows": 1215,
+      "data_group": "both_static_20261008_141326_141449"
+    },
+    {
+      "path": "data/other/imu_inhand_YZJ_handheld_手持静止（双手）_20261008_141449.csv",
+      "retained_rows": 1216,
+      "data_group": "both_static_20261008_141326_141449"
+    }
+  ]
+}

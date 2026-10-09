@@ -1,0 +1,122 @@
+{
+  "checkpoint": "models/R10/causal_cnn_best.pt",
+  "input_names": [
+    "imu",
+    "cnn_buffer",
+    "grav_state"
+  ],
+  "output_names": [
+    "logits",
+    "cnn_buffer_out",
+    "grav_state_out"
+  ],
+  "input_shape_string": "imu:1,1,6;cnn_buffer:1,32,60;grav_state:1,3",
+  "imu_shape": [
+    1,
+    1,
+    6
+  ],
+  "cnn_buffer_shape": [
+    1,
+    32,
+    60
+  ],
+  "grav_state_shape": [
+    1,
+    3
+  ],
+  "gravity_alpha": 0.9700000286102295,
+  "label_names": [
+    "non_handheld",
+    "handheld"
+  ],
+  "label_map": {
+    "non_handheld": 0,
+    "handheld": 1
+  },
+  "feature_cols": [
+    "acc_x",
+    "acc_y",
+    "acc_z",
+    "gyro_x",
+    "gyro_y",
+    "gyro_z"
+  ],
+  "norm_stats": {
+    "mean": [
+      0.05910849943757057,
+      0.4817154109477997,
+      9.445425987243652,
+      0.00010093271703226492,
+      -0.00027028663316741586,
+      -0.0015120282769203186
+    ],
+    "std": [
+      1.617651104927063,
+      1.9742977619171143,
+      0.6221764087677002,
+      0.0968429297208786,
+      0.11744307726621628,
+      0.314462274312973
+    ]
+  },
+  "model_config": {
+    "input_dim": 6,
+    "num_classes": 2,
+    "cnn_channels": 32,
+    "kernel_size": 5,
+    "dilations": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "dropout": 0.1,
+    "step_chunk_size": 1,
+    "receptive_field": 61,
+    "cnn_state_len": 60,
+    "gravity_alpha": 0.9700000286102295,
+    "acc_channels": 3,
+    "feature_cols": [
+      "acc_x",
+      "acc_y",
+      "acc_z",
+      "gyro_x",
+      "gyro_y",
+      "gyro_z"
+    ],
+    "label_map": {
+      "non_handheld": 0,
+      "handheld": 1
+    },
+    "window_size": 128,
+    "stride": {
+      "local79": 1,
+      "smartrotation72": 2,
+      "vehicle_train5": 1,
+      "today_train5": 1,
+      "new_train6": 1,
+      "both_static_train2": 1
+    },
+    "rotation_copies": {
+      "local79": 3,
+      "smartrotation72": 0,
+      "vehicle_train5": 3,
+      "today_train5": 3,
+      "new_train6": 3,
+      "both_static_train2": 3
+    }
+  },
+  "receptive_field": 61,
+  "note": "流式：imu[1,1,6]+cnn_buffer+grav_state；模型内 EMA 去重力；logits[0,0,1]=handheld",
+  "model_file": "PhoneInHandDemo/entry/src/main/resources/rawfile/phone_inhand_step_r10_r9_both_static2_smart2_other1_rot3_tmse_50epochs_20261008.ms",
+  "model_id": "step-r10-r9-both-static2-smart2-other1-rot3-tmse-50epochs-20261008",
+  "best_epoch": 12,
+  "fsm": {
+    "handheld_evidence_threshold": 0.95,
+    "non_handheld_evidence_threshold": 0.1,
+    "contact_to_free_frames": 60,
+    "free_to_contact_frames": 35,
+    "stable_evidence_ratio": 0.9
+  }
+}

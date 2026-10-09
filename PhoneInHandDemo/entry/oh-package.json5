@@ -1,0 +1,8 @@
+{
+  "modelVersion": "6.0.1",
+  "name": "entry",
+  "description": "Phone-in-hand IMU collector entry module",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {}
+}
