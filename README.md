@@ -6,9 +6,9 @@
 
 以下视频展示 HarmonyOS Demo 的实时检测界面（约 37 秒）：
 
-<video src="https://raw.githubusercontent.com/oscaryangzj/PhoneinHand/main/assets/demo/phoneinhand_demo.mp4" controls playsinline width="320">
-  浏览器不支持内嵌播放时，可[打开演示视频](assets/demo/phoneinhand_demo.mp4)。
-</video>
+![HarmonyOS 手机端实时检测演示预览](assets/demo/phoneinhand_demo_preview.gif)
+
+上方为 8 秒循环预览；[打开完整 37 秒视频（MP4）](assets/demo/phoneinhand_demo.mp4)。
 
 ## 任务与方法
 
