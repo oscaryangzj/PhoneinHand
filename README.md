@@ -1,6 +1,6 @@
 # PhoneInHand：基于 IMU 的手机支撑接触状态识别
 
-使用 100 Hz 六轴 IMU，判断手机是否完全离开桌面并由手握持。本仓库提供 **R10 因果 CNN** 的数据、训练与评估代码，以及搭载该模型的 HarmonyOS 实时检测 Demo。
+使用 100 Hz 六轴 IMU，判断手机是否完全离开桌面并由手握持。本仓库提供当前 Demo 使用的 **R10 因果 CNN** 的数据、训练与评估代码；此前部署的 **R8** 模型作为历史版本一并归档。
 
 ## 任务与方法
 
@@ -26,8 +26,10 @@ PhoneInHandDemo/   HarmonyOS 采集与实时推理
 data/
   smartrotate/    SmartRotate 原始 CSV
   other/          其他来源原始 CSV
-  splits/R10.json 固定训练 / 验证清单
-models/R10/        checkpoint、归一化参数、部署协议与参考结果
+  splits/R10.json 当前 R10 固定训练 / 验证清单
+  splits/R8.json   历史 R8 录制清单
+models/R10/        当前模型、归一化参数、部署协议与参考结果
+models/R8/         历史 checkpoint、手机模型、配方与验证结果
 docs/              数据接口与模型登记
 ```
 
@@ -82,6 +84,8 @@ python -m src.evaluate --device cpu --output runs/R10_evaluation.json
 
 `False Free Rate = P(pred=handheld | true=non_handheld)`，衡量手机仍接触支撑面却被判为手持的错误。上表是原始逐帧分类结果；FSM 结果另列，`unknown` 单独统计。该验证集同时用于选择最佳模型，结果不代表独立测试集性能。完整参考结果见 [reference_metrics.json](models/R10/reference_metrics.json)。
 
+历史部署版 **R8** 的 checkpoint 和手机端 `.ms` 模型保存在 `models/R8/`，训练配方及录制清单分别见 [experiment_config.json](models/R8/experiment_config.json) 和 [R8.json](data/splits/R8.json)。R8 在其 39 条验证录制上的 Accuracy 为 98.5701%、Macro-F1 为 0.985659、False Free Rate 为 1.6434%，最佳轮为 31。R8 与 R10 使用不同验证划分，指标不宜直接横向比较；Demo 默认仍使用 R10。
+
 ### 3. 从头训练并评估
 
 按设备选择一条训练命令：
@@ -114,4 +118,4 @@ Demo 已包含 R10 的 MindSpore Lite `.ms` 模型，归一化和流式状态接
 
 ## 代码来源
 
-本仓库整理自 [PhoneInHand](https://github.com/zhangrui1123/PhoneInHand) 与 [PhoneInHandDemo](https://github.com/zhangrui1123/PhoneInHandDemo)，保留 R10 核心实现与复现所需产物。
+本项目的代码基础来自 mentor 提供的两个仓库：[PhoneInHand](https://github.com/zhangrui1123/PhoneInHand)（Python 数据处理、训练与评估）和 [PhoneInHandDemo](https://github.com/zhangrui1123/PhoneInHandDemo)（HarmonyOS 采集与端侧推理）。本仓库在此基础上筛选并整合可复现的核心代码、数据清单和 R8/R10 模型产物。

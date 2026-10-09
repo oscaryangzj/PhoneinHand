@@ -1,0 +1,85 @@
+{
+  "seed": 42,
+  "epochs": 40,
+  "batch_size": 64,
+  "window_size": 128,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "class_weights": true,
+  "grad_clip": 1.0,
+  "run": "R8_smart_stride2_other_stride1_rot3",
+  "stride": {
+    "local79": 1,
+    "smartrotation72": 2,
+    "vehicle_train5": 1,
+    "today_train5": 1
+  },
+  "rotation_copies": {
+    "local79": 3,
+    "smartrotation72": 0,
+    "vehicle_train5": 3,
+    "today_train5": 3
+  },
+  "rotation_seed": 42,
+  "rotation_policy": "non-SmartRotation original stride1 window +3 fixed seed42 Haar-uniform SO(3) copies, same raw-space matrix for all frames and acc/gyro; SmartRotation stride2, no copies",
+  "stride_by_source_group": {
+    "old_foundation": 1,
+    "old_micro_20260930": 1,
+    "today_20261006": 1,
+    "device_additions_20261006": 1,
+    "smartrotation": 2,
+    "vehicle_20261007": 1,
+    "today_20261008": 1
+  },
+  "training_recordings": 161,
+  "validation_recordings": 39,
+  "local_base_windows": 89047,
+  "local_augmented_windows": 356188,
+  "smartrotation_windows": 199334,
+  "training_windows": 599038,
+  "effective_class_frames": [
+    13851328,
+    26883256
+  ],
+  "normalization": "reuse unchanged R7/R6b/R5a training statistics; no validation statistics",
+  "normalization_source": "models/R8/norm_stats.json (same fixed statistics as R10)",
+  "dataset_manifest": "data/splits/R8.json",
+  "device": "mps",
+  "trim_seconds": 3,
+  "warmup_frames_after_trim": 60,
+  "comparison_caveat": "stride and augmentation change optimizer updates and local-versus-SmartRotation sampling weight; equal epochs do not mean equal optimizer budgets",
+  "torch_version": "2.14.0",
+  "numpy_version": "2.4.6",
+  "model": {
+    "input_dim": 6,
+    "num_classes": 2,
+    "cnn_channels": 32,
+    "kernel_size": 5,
+    "dilations": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "dropout": 0.1,
+    "step_chunk_size": 1,
+    "gravity_alpha": 0.9700000286102295,
+    "acc_channels": 3
+  },
+  "initialization": "fresh random initialization seed42; inherit R7 recipe, not weight fine tuning",
+  "temporal_loss": {
+    "name": "same_label_tmse",
+    "weight": 0.15,
+    "tau": 4.0,
+    "previous_frame_stop_gradient": true,
+    "mask": "both frames valid and equal labels within one window",
+    "normalization": "valid adjacent pairs times class count",
+    "source": "https://github.com/yabufarha/ms-tcn/blob/master/model.py"
+  },
+  "vehicle_base_windows": 5434,
+  "vehicle_augmented_windows": 21736,
+  "training_metrics_accumulation": "GPU FP32 accumulation; same loss/backward/clip/optimizer per batch",
+  "today_base_windows": 5445,
+  "today_augmented_windows": 21780,
+  "model_id": "step-r8-r7-today-smart2-other1-rot3-tmse-20261008"
+}

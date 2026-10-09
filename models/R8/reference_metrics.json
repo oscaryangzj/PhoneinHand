@@ -1,0 +1,429 @@
+{
+  "accuracy": 0.9857013074218904,
+  "macro_f1": 0.9856590671812623,
+  "confusion_matrix_tn_fp_fn_tp": [
+    23581,
+    394,
+    330,
+    26329
+  ],
+  "false_free_rate": 0.01643378519290928,
+  "yzj_accuracy": 0.9831907772406099,
+  "yzj_contact_false_free_rate": 0.03213329366260042,
+  "scene_confusions_tn_fp_fn_tp": {
+    "手持微动": [
+      0,
+      0,
+      17,
+      8072
+    ],
+    "手持静止（双手）": [
+      0,
+      0,
+      305,
+      2007
+    ],
+    "手持静止（右手）": [
+      0,
+      0,
+      0,
+      3254
+    ],
+    "车载手持": [
+      0,
+      0,
+      0,
+      2309
+    ],
+    "桌面微动": [
+      8648,
+      386,
+      0,
+      0
+    ],
+    "车载静置": [
+      6918,
+      8,
+      0,
+      0
+    ],
+    "手持步行": [
+      0,
+      0,
+      0,
+      2671
+    ],
+    "手持静止": [
+      0,
+      0,
+      8,
+      8016
+    ],
+    "桌面静置": [
+      8015,
+      0,
+      0,
+      0
+    ]
+  },
+  "recordings": [
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20260930_162531.csv",
+      "scene": "手持微动",
+      "n": 1156,
+      "tn": 0,
+      "fp": 0,
+      "fn": 10,
+      "tp": 1146
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20260930_162626.csv",
+      "scene": "手持微动",
+      "n": 1156,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 1156
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20260930_174114.csv",
+      "scene": "手持微动",
+      "n": 1157,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 1157
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20261006_091853.csv",
+      "scene": "手持微动",
+      "n": 1156,
+      "tn": 0,
+      "fp": 0,
+      "fn": 3,
+      "tp": 1153
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20261008_092516.csv",
+      "scene": "手持微动",
+      "n": 1156,
+      "tn": 0,
+      "fp": 0,
+      "fn": 1,
+      "tp": 1155
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持微动_20261008_092559.csv",
+      "scene": "手持微动",
+      "n": 1153,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 1153
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（双手）_20261006_091633.csv",
+      "scene": "手持静止（双手）",
+      "n": 1156,
+      "tn": 0,
+      "fp": 0,
+      "fn": 23,
+      "tp": 1133
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（双手）_20261006_101047.csv",
+      "scene": "手持静止（双手）",
+      "n": 1156,
+      "tn": 0,
+      "fp": 0,
+      "fn": 282,
+      "tp": 874
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113335.csv",
+      "scene": "手持静止（右手）",
+      "n": 651,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 651
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113353.csv",
+      "scene": "手持静止（右手）",
+      "n": 650,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 650
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113414.csv",
+      "scene": "手持静止（右手）",
+      "n": 652,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 652
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113432.csv",
+      "scene": "手持静止（右手）",
+      "n": 650,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 650
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_手持静止（右手）_20260930_113454.csv",
+      "scene": "手持静止（右手）",
+      "n": 651,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 651
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_车载手持_20261007_191235.csv",
+      "scene": "车载手持",
+      "n": 1154,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 1154
+    },
+    {
+      "file": "imu_inhand_YZJ_handheld_车载手持_20261008_084242.csv",
+      "scene": "车载手持",
+      "n": 1155,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 1155
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_底面接触桌面握持_20260930_113309.csv",
+      "scene": "桌面微动",
+      "n": 651,
+      "tn": 651,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20260930_162509.csv",
+      "scene": "桌面微动",
+      "n": 1156,
+      "tn": 1152,
+      "fp": 4,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20260930_162602.csv",
+      "scene": "桌面微动",
+      "n": 1155,
+      "tn": 1072,
+      "fp": 83,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20260930_174050.csv",
+      "scene": "桌面微动",
+      "n": 1155,
+      "tn": 1152,
+      "fp": 3,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20261006_091805.csv",
+      "scene": "桌面微动",
+      "n": 1154,
+      "tn": 1058,
+      "fp": 96,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_桌面微动_20261006_101205.csv",
+      "scene": "桌面微动",
+      "n": 1158,
+      "tn": 1084,
+      "fp": 74,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261007_191148.csv",
+      "scene": "车载静置",
+      "n": 1158,
+      "tn": 1158,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261007_191332.csv",
+      "scene": "车载静置",
+      "n": 1153,
+      "tn": 1153,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261007_191501.csv",
+      "scene": "车载静置",
+      "n": 1154,
+      "tn": 1146,
+      "fp": 8,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261007_191554.csv",
+      "scene": "车载静置",
+      "n": 1152,
+      "tn": 1152,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261008_080905.csv",
+      "scene": "车载静置",
+      "n": 1154,
+      "tn": 1154,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_车载静置_20261008_084145.csv",
+      "scene": "车载静置",
+      "n": 1155,
+      "tn": 1155,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113108.csv",
+      "scene": "桌面微动",
+      "n": 650,
+      "tn": 649,
+      "fp": 1,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113201.csv",
+      "scene": "桌面微动",
+      "n": 652,
+      "tn": 537,
+      "fp": 115,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113230.csv",
+      "scene": "桌面微动",
+      "n": 652,
+      "tn": 652,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_YZJ_non_handheld_边缘接触桌面握持_20260930_113251.csv",
+      "scene": "桌面微动",
+      "n": 651,
+      "tn": 641,
+      "fp": 10,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持微动_20261007_162352.csv",
+      "scene": "手持微动",
+      "n": 1155,
+      "tn": 0,
+      "fp": 0,
+      "fn": 3,
+      "tp": 1152
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持步行_20260807_133923.csv",
+      "scene": "手持步行",
+      "n": 2671,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 2671
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持静止_20260807_133805.csv",
+      "scene": "手持静止",
+      "n": 2672,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 2672
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持静止_20260807_153148.csv",
+      "scene": "手持静止",
+      "n": 2675,
+      "tn": 0,
+      "fp": 0,
+      "fn": 8,
+      "tp": 2667
+    },
+    {
+      "file": "imu_inhand_ZR_handheld_手持静止_20260807_153224.csv",
+      "scene": "手持静止",
+      "n": 2677,
+      "tn": 0,
+      "fp": 0,
+      "fn": 0,
+      "tp": 2677
+    },
+    {
+      "file": "imu_inhand_ZR_non_handheld_桌面静置_20260807_133712.csv",
+      "scene": "桌面静置",
+      "n": 2669,
+      "tn": 2669,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_ZR_non_handheld_桌面静置_20260807_162519.csv",
+      "scene": "桌面静置",
+      "n": 2671,
+      "tn": 2671,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    },
+    {
+      "file": "imu_inhand_ZR_non_handheld_桌面静置_20260810_104117.csv",
+      "scene": "桌面静置",
+      "n": 2675,
+      "tn": 2675,
+      "fp": 0,
+      "fn": 0,
+      "tp": 0
+    }
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\nnon_handheld     0.9862    0.9836    0.9849     23975\n    handheld     0.9853    0.9876    0.9864     26659\n\n    accuracy                         0.9857     50634\n   macro avg     0.9857    0.9856    0.9857     50634\nweighted avg     0.9857    0.9857    0.9857     50634\n",
+  "best_epoch": 31,
+  "train_samples": 599038,
+  "updates_per_epoch": 9360,
+  "total_updates": 374400,
+  "training_and_epoch_validation_seconds": 4259.496303874999,
+  "scene_grouping_note": "场景分组按 data/index.json 的规范化 scene_tag 汇总；历史文件名保持原样。"
+}
