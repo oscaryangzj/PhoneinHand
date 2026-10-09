@@ -128,4 +128,4 @@ Demo 已包含 R10 的 MindSpore Lite `.ms` 模型，归一化和流式状态接
 
 ## 代码来源
 
-本项目的代码基础来自 mentor 提供的两个仓库：[PhoneInHand](https://github.com/zhangrui1123/PhoneInHand)（Python 数据处理、训练与评估）和 [PhoneInHandDemo](https://github.com/zhangrui1123/PhoneInHandDemo)（HarmonyOS 采集与端侧推理）。本仓库在此基础上筛选并整合可复现的核心代码、数据清单和 R8/R10 模型产物。
+本项目的代码基础来自 [Rui Zhang](https://github.com/zhangrui1123) 提供的两个仓库：[PhoneInHand](https://github.com/zhangrui1123/PhoneInHand)（Python 数据处理、训练与评估）和 [PhoneInHandDemo](https://github.com/zhangrui1123/PhoneInHandDemo)（HarmonyOS 采集与端侧推理）。本仓库在此基础上筛选并整合可复现的核心代码、数据清单和 R8/R10 模型产物。
